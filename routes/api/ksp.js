@@ -22,7 +22,7 @@ router.get("/", async (req, res) => {
 
     //Do the checks
     if (result) {
-      if (result[0].text.indexOf("Asus ux425ea") != -1) {
+      if (result[0].text.indexOf(" ") != -1) {
         await del(dir);
         //Makes the request fail, then CRON sends an email about it
         console.log(resolt.text);
