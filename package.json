@@ -1,0 +1,21 @@
+{
+  "name": "ksp-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Roey Barda",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.2",
+    "del": "^6.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2",
+    "website-scraper": "^4.2.3"
+  }
+}
